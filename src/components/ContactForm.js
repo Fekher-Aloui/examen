@@ -1,4 +1,5 @@
-"use client";
+"use client"; // TRÈS IMPORTANT : Doit être à la ligne 1 !
+
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
